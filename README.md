@@ -1,4 +1,6 @@
 # iotapp-api
+[![GitHub issues](https://img.shields.io/github/issues/FlynnDerek/iotapp-api)](https://github.com/FlynnDerek/iotapp-api/issues)
+[![npm version](https://badge.fury.io/js/iotapp-api.svg)](https://badge.fury.io/js/iotapp-api)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 An easy API for building IoT powered dApps with iotapp. 
