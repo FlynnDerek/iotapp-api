@@ -1,0 +1,26 @@
+{
+  "name": "iotapp-api",
+  "version": "1.0.0",
+  "description": "iotapp public API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iotapp",
+    "iotapp-api",
+    "blockchain",
+    "iot",
+    "serverless",
+    "baas",
+    "blockchain as a service"
+  ],
+  "author": "Derek Flynn",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1"
+  }
+}
