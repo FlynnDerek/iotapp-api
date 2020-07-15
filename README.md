@@ -41,7 +41,7 @@ Pass your channel app key(s) as an argument to get and display each transaction 
 ```Javascript
 var chainData = [];
 
-iotapp.getPublicChain("app_key_1", "app_key_2")
+iotapp.getPrivateChain("app_key_1", "app_key_2")
 .then(data => this.chainData = data)
 ```
 
