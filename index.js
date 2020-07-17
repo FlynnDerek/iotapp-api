@@ -31,7 +31,7 @@ module.exports = {
       })
   }, 
 
-  //getLastBlock() method returns the last block in the private chain for a given write key.
+  //getLatestTx() method returns the latest transaction in the private chain for a given app key.
   // Use this method to get and display the latest incoming data for your dapp. 
   getLatestTx (key1, key2) {
     return axios.post('https://iotappbe.com:5001/passkeys', {
