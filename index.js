@@ -43,7 +43,7 @@ module.exports = {
       return [lastBlock.slice(-1)[0]]
     })
     .catch((error) => {
-      console.log("API error " + error);
+      console.log("API error: " + error);
     }) 
   }
 }
