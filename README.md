@@ -1,4 +1,7 @@
 # iotapp-api
+[![GitHub issues](https://img.shields.io/github/issues/FlynnDerek/iotapp-api)](https://github.com/FlynnDerek/iotapp-api/issues)
+[![npm version](https://badge.fury.io/js/iotapp-api.svg)](https://badge.fury.io/js/iotapp-api)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 An easy API for building IoT powered dApps with iotapp. 
 
@@ -38,7 +41,7 @@ Pass your channel app key(s) as an argument to get and display each transaction 
 ```Javascript
 var chainData = [];
 
-iotapp.getPublicChain("app_key_1", "app_key_2")
+iotapp.getPrivateChain("app_key_1", "app_key_2")
 .then(data => this.chainData = data)
 ```
 
@@ -55,4 +58,4 @@ iotapp.getLatestTx("app_key_1", "app_key_2")
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)"# iotapp-api" 
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -1,6 +1,6 @@
 {
   "name": "iotapp-api",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "iotapp public API",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,14 @@
     "axios": "^0.19.2"
   },
   "devDependencies": {
-    "eslint": "^7.3.1"
+    "eslint": "^7.3.1",
+    "node-forge": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlynnDerek/iotapp-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FlynnDerek/iotapp-api/issues"
   }
 }
